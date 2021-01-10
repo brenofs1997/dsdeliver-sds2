@@ -1,14 +1,15 @@
 
-import logo from './logo.svg';
+  import { ToastContainer } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
-import Counter from './Counter';
-
+import Routes from './Routes'
 
 function App() {
   return (
-    <div className="">
-      <h1>Ola</h1>
-    </div>
+    < >
+      <Routes />
+      <ToastContainer />
+    </>
   );
 }
 
